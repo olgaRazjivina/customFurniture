@@ -1,0 +1,34 @@
+.designers__title {
+  margin-bottom: 84px;
+
+  @media (max-device-width: $tablet-width) {
+    margin-bottom: 40px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    margin-bottom: 64px;
+  }
+}
+
+.designers__row {
+  display: flex;
+  column-gap: 80px;
+
+  @media (max-device-width: $tablet-width) {
+    column-gap: 45px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    flex-direction: column;
+  }
+}
+
+.designers__slider {
+  @media (max-device-width: $mobile-width) {
+    margin-bottom: 38px;
+  }
+}
+
+.designers__slider-wrapper {
+  position: relative;
+}

@@ -1,0 +1,11 @@
+.quality-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.quality-list__item {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}

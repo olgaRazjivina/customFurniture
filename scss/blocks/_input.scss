@@ -1,0 +1,19 @@
+.input {
+  font-family: inherit;
+  font-size: 11px;
+  background-color: $light-color;
+  line-height: 1;
+  font-weight: 600;
+
+  @media (max-device-width: $tablet-width) {
+    font-size: 14px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    font-size: 16px;
+  }
+}
+
+.input::placeholder {
+  color: $dark-second-color;
+}

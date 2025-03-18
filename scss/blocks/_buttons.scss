@@ -1,0 +1,32 @@
+.button {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  color: $dark-color;
+  background-color: $light-color;
+  border: 1px solid $accent-color;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+
+  @media (max-device-width: $tablet-width) {
+    font-size: 11px;
+  }
+}
+
+.button:hover,
+.button:focus {
+  background-color: $accent-color;
+  color: $light-color;
+}
+
+.button--accent {
+  color: $light-color;
+  background-color: $accent-color;
+  border: 1px solid transparent;
+}
+
+.button--accent:hover,
+.button--accent:active {
+  background-color: lighten($accent-color, 10%);
+}

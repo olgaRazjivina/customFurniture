@@ -1,0 +1,50 @@
+.gallery {
+  background-image: url("./../img/gallery/gallery-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolusion: 192dpi) {
+    background-image: url("./../img/gallery/gallery-bg@2x.jpg");
+  }
+
+  @media (max-device-width: $tablet-width) {
+    background-image: url("./../img/gallery/gallery-bg-tablet.jpg");
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolusion: 192dpi) {
+      background-image: url("./../img/gallery/gallery-bg-tablet@2x.jpg");
+    }
+  }
+
+  @media (max-device-width: $mobile-width) {
+    background-image: url("./../img/gallery/gallery-bg-mobile.jpg");
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolusion: 192dpi) {
+      background-image: url("./../img/gallery/gallery-bg-mobile@2x.jpg");
+    }
+  }
+}
+
+.gallery__title {
+  margin-bottom: 84px;
+
+  @media (max-device-width: $tablet-width) {
+    margin-bottom: 64px;
+  }
+}
+
+.gallery__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 46px;
+  row-gap: 44px;
+
+  @media (max-device-width: $tablet-width) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    grid-template-columns: 1fr;
+  }
+}

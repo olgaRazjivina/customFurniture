@@ -1,0 +1,31 @@
+.contacts__title {
+  margin-bottom: 50px;
+
+  @media (max-device-width: $tablet-width) {
+    margin-bottom: 40px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    margin-bottom: 30px;
+  }
+}
+
+.contacts__wrapper {
+  position: relative;
+}
+
+.contacts__card {
+  position: absolute;
+  left: 66px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  @media (max-device-width: $tablet-width) {
+    left: 60px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    position: static;
+    transform: translateY(0%);
+  }
+}

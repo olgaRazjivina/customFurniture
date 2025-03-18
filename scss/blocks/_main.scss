@@ -1,0 +1,107 @@
+.main__benefits {
+  margin-bottom: 130px;
+
+  @media (max-device-width: $tablet-width) {
+    margin-bottom: 29px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    margin-bottom: 50px;
+  }
+}
+
+.main__gallery {
+  margin-bottom: 140px;
+
+  @media (max-device-width: $tablet-width) {
+    margin-bottom: 60px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    margin-bottom: 50px;
+  }
+}
+
+.main__catalog {
+  margin-bottom: 98px;
+
+  @media (max-device-width: $tablet-width) {
+    margin-bottom: 78px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    margin-bottom: 49px;
+  }
+}
+
+.main__designers {
+  margin-bottom: 104px;
+
+  @media (max-device-width: $tablet-width) {
+    margin-bottom: 33px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    margin-bottom: 68px;
+  }
+}
+
+.main__services {
+  margin-bottom: 120px;
+
+  @media (max-device-width: $tablet-width) {
+    margin-bottom: 78px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    margin-bottom: 50px;
+  }
+}
+
+.main__stages {
+  margin-bottom: 97px;
+
+  @media (max-device-width: $tablet-width) {
+    margin-bottom: 60px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    margin-bottom: 50px;
+  }
+}
+
+.main__reviews {
+  margin-bottom: 120px;
+
+  @media (max-device-width: $tablet-width) {
+    margin-bottom: 65px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    margin-bottom: 50px;
+  }
+}
+
+.main__feedback {
+  margin-bottom: 100px;
+
+  @media (max-device-width: $tablet-width) {
+    margin-bottom: 60px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    margin-bottom: 50px;
+  }
+}
+
+.main__contacts {
+  margin-bottom: 100px;
+
+  @media (max-device-width: $tablet-width) {
+    margin-bottom: 60px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    margin-bottom: 50px;
+  }
+}

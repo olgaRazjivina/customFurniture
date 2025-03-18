@@ -1,0 +1,51 @@
+.connection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 4px;
+
+  @media (max-device-width: $mobile-width) {
+    row-gap: 6px;
+  }
+}
+
+.connection__link {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: $dark-color;
+  transition: all 0.2s ease;
+
+  @media (max-device-width: $tablet-width) {
+    font-size: 11px;
+    line-height: 1.9;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    font-size: 14px;
+    line-height: 1;
+  }
+}
+
+.connection__link:hover,
+.connection__link:focus {
+  color: $accent-color;
+}
+
+.connection__button {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.79;
+  text-decoration: underline;
+  color: $accent-color;
+  transition: all 0.2s ease;
+
+  @media (max-device-width: $tablet-width) {
+    font-size: 12px;
+  }
+}
+
+.connection__button:hover,
+.connection__button:focus {
+  color: $dark-color;
+}

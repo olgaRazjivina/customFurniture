@@ -1,0 +1,25 @@
+.benefits {
+  padding-top: 56px;
+
+  @media (max-device-width: $tablet-width) {
+    padding-top: 50px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    padding-top: 37px;
+  }
+}
+
+.benefits__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 41px;
+
+  @media (max-device-width: $tablet-width) {
+    gap: 16px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

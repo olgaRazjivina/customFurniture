@@ -1,0 +1,59 @@
+.stages {
+  background-image: url("./../img/stages/stages-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolusion: 192dpi) {
+    background-image: url("./../img/stages/stages-bg@2x.jpg");
+  }
+}
+
+.stages__title {
+  margin-bottom: 64px;
+
+  @media (max-device-width: $tablet-width) {
+    margin-bottom: 54px;
+  }
+}
+
+.stages__list {
+  margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 50px;
+  column-gap: 45px;
+  list-style-type: none;
+
+  @media (max-device-width: $tablet-width) {
+    margin-bottom: 50px;
+    column-gap: 28px;
+    row-gap: 37px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    margin-bottom: 30px;
+    row-gap: 30px;
+  }
+}
+
+.stages__btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+
+  @media (max-device-width: $mobile-width) {
+    flex-direction: column;
+    row-gap: 12px;
+  }
+}
+
+.stages__button {
+  padding: 18px 58px;
+
+  @media (max-device-width: $tablet-width) {
+    padding: 18px 26px;
+  }
+}

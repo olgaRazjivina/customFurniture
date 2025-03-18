@@ -1,0 +1,10 @@
+.map {
+  width: 100%;
+  height: 349px;
+  border-radius: 10px;
+  border: none;
+
+  @media (max-device-width: $tablet-width) {
+    height: 328px;
+  }
+}

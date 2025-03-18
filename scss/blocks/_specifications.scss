@@ -1,0 +1,30 @@
+.specifications {
+  display: flex;
+  flex-direction: column;
+  row-gap: 17px;
+
+  @media (max-device-width: $mobile-width) {
+    row-gap: 15px;
+  }
+}
+
+.specifications__row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
+
+.specifications__property {
+  color: $dark-support-color;
+  line-height: 1.15;
+
+  @media (max-device-width: $tablet-width) {
+    font-size: 18px;
+  }
+}
+
+.specifications__value {
+  font-weight: 600;
+  line-height: 1.15;
+}

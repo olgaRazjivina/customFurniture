@@ -1,0 +1,38 @@
+.hero {
+  @media (max-device-width: $mobile-width) {
+    background-image: url("./../img/main-bg-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolusion: 192dpi) {
+      background-image: url("./../img/main-bg-mobile@2x.jpg");
+    }
+  }
+}
+
+.hero__content {
+  max-width: 504px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 43px;
+
+  @media (max-device-width: $tablet-width) {
+    max-width: 388px;
+    row-gap: 26px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    max-width: 279px;
+  }
+}
+
+.hero__advantages-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+
+  @media (max-device-width: $mobile-width) {
+    row-gap: 14px;
+  }
+}

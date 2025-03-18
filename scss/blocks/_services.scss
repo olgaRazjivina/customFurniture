@@ -1,0 +1,33 @@
+.services {
+  background-image: url("./../img/services/services-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolusion: 192dpi) {
+    background-image: url("./../img/services/services-bg@2x.jpg");
+  }
+}
+
+.services__title {
+  margin-bottom: 60px;
+
+  @media (max-device-width: $mobile-width) {
+    margin-bottom: 40px;
+  }
+}
+
+.services__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 46px;
+
+  @media (max-device-width: $tablet-width) {
+    gap: 37px;
+  }
+
+  @media (max-device-width: $mobile-width) {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}
